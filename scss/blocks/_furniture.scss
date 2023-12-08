@@ -1,0 +1,160 @@
+/* FURNITURE STYLE START */ 
+.furniture{
+    width: 100%;
+    margin-bottom: 118px;
+    
+    &-title{
+        @include section-title;
+        text-align: center;
+    }
+    
+    &-desc{
+        @include section-desc;
+        text-align: center;
+    }
+    
+    &-form{
+        display: flex;
+        align-items: center;
+        
+        & img{
+            cursor: pointer;
+            
+            &:hover{
+                opacity: .9;
+            }
+        }
+        
+        &__input{
+            padding: 16px 0 16px 16px;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+            border-radius: 5px;
+            background-color: #EFEFEF;
+            border: none;
+            outline: none;
+            
+            &::placeholder{
+                color: #686868;
+            }
+        }
+    }
+    
+    &-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        
+        &__list{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        
+        &__link{
+            color: #686868;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            transition: .4;
+            
+            &:hover{
+                color: #000;
+            }
+        }
+    }
+    
+    &-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+        
+        gap: 30px;
+        
+        &__img{
+            width: 100%;
+            margin-bottom: 13px;
+        }
+        
+        &__price{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 10px;
+            margin-bottom: 10px;
+            
+            &-title{
+                color: #373737;
+                font-size: 20px;
+                line-height: 30px;
+            }
+            
+            &-desc{
+                color: #373737;
+                font-size: 20px;
+                font-style: normal;
+                line-height: 30px;
+            }
+        }
+        
+        &__desc{
+            margin-bottom: 13px;
+            padding: 0 10px;
+            color: #696161;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+        }
+        
+        &__btn{
+            padding: 8px 12px;
+            margin-left: 10px;
+            color: #FFF;
+            font-size: 16px;
+            line-height: 24px;
+            border: none;
+            border-radius: 5px;
+            background-color: #373737;
+            cursor: pointer;
+            
+            &:hover{
+                opacity: .8;
+            }
+        }
+        
+    }
+    
+    &-item{
+        width: 100%;
+        max-width: 267px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        background-color: #F9F9F9;
+        box-shadow: 8px 8px 20px 0px rgba(39, 39, 43, 0.10);
+        overflow: hidden;
+    }
+    
+    &-link{
+        display:block;
+        width: 100%;
+        max-width: 120px;
+        margin: 0 auto;
+        padding: 13px 28px;
+        color: #FFF;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 5px;
+        background-color: #373737;
+        cursor: pointer;
+
+        &:hover{
+            opacity: .8;
+        }
+    }
+}
+/* FURNITURE STYLE END */ 
