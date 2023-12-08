@@ -1,0 +1,75 @@
+/* HERO STYLE START */ 
+.hero{
+    background-image: url("../images/hero-bg.png");
+    background-position: calc(50%) 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    &-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+    
+    &-networks{
+        background-color: #00000026;
+        backdrop-filter: blur(15px);
+        
+        &__list{
+            padding: 251px 0 253px 20px;
+        }
+        
+        &__item{
+            margin-bottom: 20px;
+        }
+    }
+    
+    &-content{
+        width: 100%;
+        margin: 170px 0 305px 0px;
+        background: linear-gradient(113deg, rgba(207, 207, 207, 0.26) 0%, rgba(207, 207, 207, 0.06) 92.87%);
+        backdrop-filter: blur(15px);
+        
+        &__info{
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 41px 0;
+            text-align: center;
+        }
+        
+        &__title{
+            margin-bottom: 25px;
+            color: $colorPrimary;
+            text-align: center;
+            font-family: 'Revalia', sans-serif;
+            font-size: 36px;
+            font-weight: 400;
+        }
+        
+        &__desc{
+            margin-bottom: 30px;
+            color: #FFF;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: normal;
+        }
+        
+        &__btn{
+            padding: 13px 17px;
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: normal;
+            border: none;
+            border-radius: 5px;
+            background-color: #373737;
+            cursor: pointer;
+            transition: .4;
+
+            &:hover{
+                opacity: .8;
+            }
+        }
+    }
+}
+/* HERO STYLE END */ 
