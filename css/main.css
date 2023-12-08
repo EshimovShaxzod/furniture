@@ -5,7 +5,6 @@
 }
 
 html {
-  height: 100%;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -174,4 +173,34 @@ a {
   opacity: 0.8;
 }
 
-/* HERO STYLE END *//*# sourceMappingURL=main.css.map */
+/* HERO STYLE END */
+/* FOLLOWING STYLE START */
+.following {
+  margin-bottom: 120px;
+}
+.following-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.following-box {
+  background-color: #000;
+}
+.following-list {
+  display: flex;
+  align-items: center;
+  margin-top: 37px;
+  margin-left: 75px;
+  gap: 80px;
+  text-align: center;
+}
+.following-list__num {
+  display: inline-block;
+  margin-bottom: 25px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.following-list__desc {
+  font-size: 20px;
+}
+
+/* FOLLOWING STYLE END *//*# sourceMappingURL=main.css.map */
