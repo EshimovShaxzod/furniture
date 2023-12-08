@@ -1,0 +1,62 @@
+/* ABOUT STYLE START */ 
+.about{
+    margin-bottom: 120px;
+    
+    &-title{
+        margin-left: 50px;
+        margin-bottom: 15px;
+        font-size: 30px;
+        font-weight: 400;
+    }
+    
+    &-desc{
+        margin-left: 50px;
+        margin-bottom: 45px;
+        color: #373737;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    &-wrapper{
+        display: flex;
+        gap: 30px;
+    }
+    
+    &-content{
+        width: 100%;
+        max-width: 680px;
+        padding: 6px 8px;
+        
+        &__desc{
+            margin-bottom: 30px;
+            color: #373737;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 158.687%;
+        }
+        
+        &__btn{
+            display: inline-block;
+            padding: 13px;
+            margin-bottom: 62px;
+            color: #FFF;
+            font-size: 18px;
+            border-radius: 5px;
+            background-color: #373737;
+            border: none;
+            cursor: pointer;
+            transition: .5;
+
+            &:hover{
+                opacity: .8;
+            }
+        }
+        
+        &__logos{
+            display: flex;
+            align-items: center;
+            gap: 105px;
+        }
+    }
+}
+/* ABOUT STYLE END */ 
