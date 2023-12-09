@@ -1,0 +1,103 @@
+/* FOOTER STYLE START */ 
+.footer{
+    width: 100%;
+    padding: 80px 0 92px;
+    background-color: #373737;
+    
+    &-wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    &-networks__title{
+        margin-bottom: 30px;
+        color: #FFF;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    
+    &-networks__link{
+        display: inline-block;
+        margin-bottom: 21px;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    &-item{
+        margin-bottom: 16px;
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 400;
+        cursor: pointer;
+        transition: .4s;
+        
+        &:hover{
+            transform: translateY(2px);
+            opacity: .8;
+        }
+        
+        &__title{
+            margin-bottom: 30px;
+            color: #FFF;
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+    
+    &-send{
+        
+        &__title{
+            margin-bottom: 30px;
+            color: #FFF;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        
+        &__form{
+            margin-bottom: 30px;
+        }
+        
+        &__input{
+            margin-right: 10px;
+            padding: 12px 0 12px 12px;
+            font-size: 14px;
+            font-weight: 300;
+            border-radius: 5px;
+            background-color: #FFF;
+            border: none;
+            outline: none;
+            
+            &::placeholder{
+                color: #373737;
+            }
+        }
+        
+        &__btn{
+            padding: 12px;
+            color: #373737;
+            font-size: 14px;
+            font-weight: 400;
+            border-radius: 5px;
+            background-color: #FFF;
+            border: none;
+            cursor: pointer;
+        }
+    }
+    
+    &-btn{
+        padding: 9px 27px;
+        color: #373737;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 5px;
+        background-color: #FFF;
+        cursor: pointer;
+        border: none;
+
+        &:active{
+            transform: translateY(1px);
+        }
+    }
+}
+/* FOOTER STYLE END */ 
