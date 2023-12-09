@@ -453,4 +453,67 @@ a {
   opacity: 0.8;
 }
 
-/* FURNITURE STYLE END *//*# sourceMappingURL=main.css.map */
+/* FURNITURE STYLE END */
+/* CLIENTS STYLE START */
+.clients {
+  width: 100%;
+  margin-bottom: 122px;
+}
+.clients-title {
+  margin-left: 50px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.clients-desc {
+  margin-left: 50px;
+  margin-bottom: 45px;
+  color: #373737;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 45px;
+}
+.clients-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.clients-item {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  max-width: 564px;
+  padding: 5px 25px 5px 0;
+  border-radius: 5px;
+  background-color: #F9F9F9;
+}
+.clients-item__img {
+  border-radius: 5px;
+}
+.clients-item__title {
+  color: #373737;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.clients-item__time {
+  display: block;
+  margin-bottom: 10px;
+  color: #696161;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.clients-item__desc {
+  margin-bottom: 15px;
+  color: #373737;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 158.687%;
+}
+.clients-item__content-img {
+  display: block;
+  margin-top: 15px;
+}
+
+/* CLIENTS STYLE END *//*# sourceMappingURL=main.css.map */
